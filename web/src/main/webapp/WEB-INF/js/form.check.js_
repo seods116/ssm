@@ -1,0 +1,13 @@
+//관리자 로그인
+var CheckForm = function(Form){
+	if (Form.ID.value==''){
+		alert('관리자 ID를 입력하여 주십시요.');
+		Form.ID.focus();
+		return false;
+	}
+	if (Form.Password.value==''){
+		alert('관리자 비밀번호를 입력하여 주십시요.');
+		Form.Password.focus();
+		return false;
+	}
+};
