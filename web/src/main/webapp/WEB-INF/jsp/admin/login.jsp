@@ -7,12 +7,12 @@
 	<title>경기농식품유통진흥원 관리자 로그인</title>
 	<meta id="viewport" name="viewport" content="width=380, user-scalable=yes, target-densitydpi=device-dpi" />
 	<meta name="format-detection" content="telephone=no"/>
-	<link rel="stylesheet" type="text/css" href="./css/common.css" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" />
-	<script language="JavaScript" type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="./js/jquery.easing.1.3.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="./js/common.js"></script>
-	<script language="JavaScript" type="text/javascript" src="./js/form.check.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/jquery.easing.1.3.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/form.check.js"></script>
 </head>
 
 <body>
