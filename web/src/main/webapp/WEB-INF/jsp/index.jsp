@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-씨발 ㅠ
+	<a href="/admin/input.do">INPUT</a>
+	<a href="/admin/list.do">LIST</a>
+	<a href="/admin/login.do">LOGIN</a>
+	<a href="/admin/main.do">MAIN</a>
 </body>
 </html>

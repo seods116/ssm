@@ -17,5 +17,26 @@ public class AdminController {
 		return "admin/main";
 	}
 	
+	// 메인
+	@RequestMapping(value = "/admin/input.do")
+	public String input(HttpSession session, ModelMap model) throws Exception {
+		
+		return "admin/input";
+	}
+	
+	// 메인
+	@RequestMapping(value = "/admin/list.do")
+	public String list(HttpSession session, ModelMap model) throws Exception {
+		
+		return "admin/list";
+	}
+	
+	// 메인
+	@RequestMapping(value = "/admin/login.do")
+	public String login(HttpSession session, ModelMap model) throws Exception {
+		
+		return "admin/login";
+	}
+	
 	
 }
