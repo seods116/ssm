@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="egov.ssm.dao.UserBasicDAO">
+
+	<resultMap id="userbasic" type="egov.ssm.vo.UserBasicVO">
+		<result property="user_seq" column="user_seq"/>
+		<result property="user_cate" column="user_cate"/>
+		<result property="user_lv" column="user_lv"/>
+		<result property="user_cunt" column="user_cunt"/>
+		<result property="user_id" column="user_id"/>
+		<result property="user_name" column="user_name"/>
+		<result property="user_pwd" column="user_pwd"/>
+		<result property="user_addr_cate" column="user_addr_cate"/>
+		<result property="user_addr" column="user_addr"/>
+		<result property="user_phone" column="user_phone"/>
+		<result property="user_call" column="user_call"/>
+		<result property="user_fax" column="user_fax"/>
+		<result property="user_mail" column="user_mail"/>
+		<result property="user_agree" column="user_agree"/>
+		<result property="user_gender" column="user_gender"/>
+		<result property="user_year" column="user_year"/>
+		<result property="user_month" column="user_month"/>
+		<result property="user_day" column="user_day"/>
+		<result property="user_job" column="user_job"/>
+		<result property="user_dept" column="user_dept"/>
+		<result property="user_posit" column="user_posit"/>
+		<result property="user_info" column="user_info"/>
+	</resultMap>
+
+
+</mapper>

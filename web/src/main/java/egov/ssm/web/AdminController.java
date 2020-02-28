@@ -43,8 +43,6 @@ public class AdminController {
 	@RequestMapping(value = "/admin/loginAction.do")
 	public void loginAction(HttpSession session, ModelMap model, @RequestParam("ID") String id, @RequestParam("Password") String pwd) throws Exception {
 		
-		System.out.println(id);
-		System.out.println(pwd);
 		
 		
 	}

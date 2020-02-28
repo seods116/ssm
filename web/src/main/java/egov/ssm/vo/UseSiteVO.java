@@ -1,5 +1,8 @@
 package egov.ssm.vo;
 
+import lombok.Data;
+
+@Data
 public class UseSiteVO {
 	
 	private String siteSeq;
@@ -7,29 +10,4 @@ public class UseSiteVO {
 	private String siteUrl;
 	private String siteImg;
 	
-	public String getSiteSeq() {
-		return siteSeq;
-	}
-	public void setSiteSeq(String siteSeq) {
-		this.siteSeq = siteSeq;
-	}
-	public String getSiteTitle() {
-		return siteTitle;
-	}
-	public void setSiteTitle(String siteTitle) {
-		this.siteTitle = siteTitle;
-	}
-	public String getSiteUrl() {
-		return siteUrl;
-	}
-	public void setSiteUrl(String siteUrl) {
-		this.siteUrl = siteUrl;
-	}
-	public String getSiteImg() {
-		return siteImg;
-	}
-	public void setSiteImg(String siteImg) {
-		this.siteImg = siteImg;
-	}
-
 }
