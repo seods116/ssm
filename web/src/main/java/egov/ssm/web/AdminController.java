@@ -38,5 +38,19 @@ public class AdminController {
 		return "admin/login";
 	}
 	
+	//유용한 사이트 리스트
+	@RequestMapping(value = "/admin/useSiteList.do")
+	public String useSiteList(HttpSession session, ModelMap model) throws Exception {
+		
+		return "admin/useSite/useSiteList";
+	}
+	
+	//유용한 사이트 등록 폼
+		@RequestMapping(value = "/admin/useSiteSaveForm.do")
+		public String useSiteSaveForm(HttpSession session, ModelMap model) throws Exception {
+			
+			return "admin/useSite/useSiteSaveForm";
+		}
+	
 	
 }
