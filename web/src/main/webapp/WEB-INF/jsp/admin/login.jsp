@@ -20,7 +20,7 @@
 		<dl class="inner_login">
 			<dt>경기농식품유통진흥원 관리툴</dt>
 			<dd>
-				<form action="" method="post" name="login" onsubmit='return CheckForm(this)'>
+				<form action="/admin/loginAction.do" method="post" name="login" onsubmit='return CheckForm(this)'>
 				<input type="hidden" name="Mode" value="Login" />
 				<input type='hidden' name='Prev_URL' value='<?=$Prev_URL?>' />
 					<div class="id_area">

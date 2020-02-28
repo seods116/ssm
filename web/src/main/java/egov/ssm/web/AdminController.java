@@ -5,6 +5,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
@@ -36,6 +37,16 @@ public class AdminController {
 	public String login(HttpSession session, ModelMap model) throws Exception {
 		
 		return "admin/login";
+	}
+	
+	// 메인
+	@RequestMapping(value = "/admin/loginAction.do")
+	public void loginAction(HttpSession session, ModelMap model, @RequestParam("ID") String id, @RequestParam("Password") String pwd) throws Exception {
+		
+		System.out.println(id);
+		System.out.println(pwd);
+		
+		
 	}
 	
 	
