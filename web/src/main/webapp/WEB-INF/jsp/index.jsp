@@ -11,5 +11,6 @@
 	<a href="/admin/list.do">LIST</a>
 	<a href="/admin/login.do">LOGIN</a>
 	<a href="/admin/main.do">MAIN</a>
+	<a href="/admin/useSiteList.do">유용한사이트</a>
 </body>
 </html>
