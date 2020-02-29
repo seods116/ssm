@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="egov.ssm.dao.UserBizDAO">
+
+	<resultMap id="userbiz" type="egov.ssm.vo.UserBizVO">
+		<result property="user_seq" column="user_seq"/>
+		<result property="user_id" column="user_id"/>
+		<result property="user_name" column="user_name"/>
+		<result property="user_num" column="user_num"/>
+		<result property="user_pwd" column="user_pwd"/>
+		<result property="user_addr" column="user_addr"/>
+		<result property="user_ceo" column="user_ceo"/>
+		<result property="user_type" column="user_type"/>
+		<result property="user_bizcon" column="user_bizcon"/>
+		<result property="user_call" column="user_call"/>
+		<result property="user_mail" column="user_mail"/>
+		<result property="user_site" column="user_site"/>
+		<result property="user_agree" column="user_agree"/>
+		<result property="user_charge" column="user_charge"/>
+		<result property="user_posit" column="user_posit"/>
+		<result property="user_cg_call" column="user_cg_call"/>
+		<result property="user_cg_phone" column="user_cg_phone"/>
+		<result property="user_cg_mail" column="user_cg_mail"/>
+		<result property="user_export" column="user_export"/>
+		<result property="user_biz_info" column="user_biz_info"/>
+
+	</resultMap>
+
+
+</mapper>
